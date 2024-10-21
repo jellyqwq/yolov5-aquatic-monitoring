@@ -2,13 +2,13 @@
 *.jpg
 *.jpeg
 *.png
+!image/**/*.png
 *.bmp
 *.tif
 *.tiff
 *.heic
 *.JPG
 *.JPEG
-*.PNG
 *.BMP
 *.TIF
 *.TIFF
