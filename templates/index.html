@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YoHo-基于YoloV5的水域污染检测预警系统</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <script
+      src="../static/jquery-3.3.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+  </head>
+  <body>
+    <div class="App">
+      <header class="App-header">
+        <p><u> 基于YoloV5的水域污染检测预警系统</u><br><u>YoHo </u></p>
+
+        <div className="pre_img">
+          <span><img id="imagebox" style="max-width: 65%; max-height: 70%; display: none;" src="" /></span>
+        </div>
+
+        <video id="videobox" style="max-width: 65%; max-height: 70%; display: none;" controls></video>
+        <span><img id="loading_icon" src="../static/loading.gif" style="display: none;"></img></span>
+        <div id="link" style="display: none;">
+          <a href="" id="download" download>Download</a>
+        </div>
+
+        <!-- <button name="cam" class="button" id="opencam">Video Cam</button> -->
+
+        <br/>
+        <hr class="line" />
+        <form>
+          <input
+            id="fileInput"
+            type="file"
+            name="file"
+            onchange="readUrl(this)"
+          />
+        </form>
+
+        <button name="detect"  class="button" id="detectbutton">Detect</button>
+        <br/>
+        
+      </header>
+    </div>
+  </body>
+</html>

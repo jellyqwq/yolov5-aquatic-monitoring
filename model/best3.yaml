@@ -1,0 +1,11 @@
+
+train: ../dataset/images/train
+val: ../dataset/images/val
+
+names: 
+ 0: not
+ 1: 废弃物
+ 2: 废弃船
+ 3: 捕鱼养殖
+ 4: 水污染
+ 5: 漂浮物
