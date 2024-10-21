@@ -8,9 +8,9 @@
 python app.py
 ```
 
-![1729505432110](image/README/1729505432110.png)
+![1729505432110](https://raw.githubusercontent.com/jellyqwq/yolov5-aquatic-monitoring/refs/heads/main/image/README/1729505432110.png)
 
-![1729505489747](image/README/1729505489747.png)
+![1729505489747](https://raw.githubusercontent.com/jellyqwq/yolov5-aquatic-monitoring/refs/heads/main/image/README/1729505489747.png)
 
 后端启动
 
